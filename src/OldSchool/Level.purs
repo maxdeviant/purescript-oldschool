@@ -17,7 +17,7 @@ derive instance Newtype Level _
 derive newtype instance Eq Level
 derive newtype instance Ord Level
 
-instance showLevel :: Show Level where
+instance Show Level where
   show (Level level) = "Level " <> show level
 
 -- | Returns the level that corresponds to the specified XP value.
