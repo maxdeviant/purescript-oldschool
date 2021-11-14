@@ -1,7 +1,7 @@
 { name = "oldschool"
 , dependencies =
-  [ "arrays"
-  , "console"
+  [ "aff"
+  , "arrays"
   , "effect"
   , "foldable-traversable"
   , "integers"
@@ -9,6 +9,7 @@
   , "newtype"
   , "prelude"
   , "psci-support"
+  , "spec"
   ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
