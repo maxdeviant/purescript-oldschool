@@ -4,7 +4,7 @@ import Prelude
 
 import Data.Newtype (class Newtype)
 
--- | An experience value.
+-- | An [experience](https://oldschool.runescape.wiki/w/Experience) value.
 newtype Exp = Exp Number
 
 derive instance Newtype Exp _

@@ -9,7 +9,7 @@ import Data.Int as Int
 import Math as Math
 import OldSchool.Exp (Exp(..))
 
--- | A level in a skill.
+-- | A level in a [skill](https://oldschool.runescape.wiki/w/Skills).
 newtype Level = Level Int
 
 derive instance Newtype Level _

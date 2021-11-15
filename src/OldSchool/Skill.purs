@@ -2,7 +2,7 @@ module OldSchool.Skill where
 
 import Prelude
 
--- | A skill.
+-- | A [skill](https://oldschool.runescape.wiki/w/Skills).
 data Skill
   = Attack
   | Defence
