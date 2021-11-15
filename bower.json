@@ -1,0 +1,28 @@
+{
+    "name": "purescript-oldschool",
+    "license": [
+        "MIT"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/maxdeviant/purescript-oldschool"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "output"
+    ],
+    "dependencies": {
+        "purescript-aff": "^v6.0.0",
+        "purescript-arrays": "^v6.0.1",
+        "purescript-effect": "^v3.0.0",
+        "purescript-foldable-traversable": "^v5.0.1",
+        "purescript-integers": "^v5.0.0",
+        "purescript-math": "^v3.0.0",
+        "purescript-newtype": "^v4.0.0",
+        "purescript-prelude": "^v5.0.1",
+        "purescript-psci-support": "^v5.0.0",
+        "purescript-spec": "^v5.0.1"
+    }
+}
