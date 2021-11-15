@@ -18,5 +18,6 @@ stdenv.mkDerivation {
     easy-ps.purs-tidy
     easy-ps.spago
     easy-ps.pulp
+    pkgs.nodePackages.bower
   ];
 }
