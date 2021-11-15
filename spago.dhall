@@ -1,4 +1,6 @@
 { name = "oldschool"
+, license = "MIT"
+, repository = "https://github.com/maxdeviant/purescript-oldschool"
 , dependencies =
   [ "aff"
   , "arrays"
